@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap4.min.css">
+    
+    <script src=  "https://code.jquery.com/jquery-3.5.1.js"> </script> 
+    <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>
+
+    <title>PSI readings</title>
+  </head>
+      
+  <body>
+      <h1 class="text-center">Pollutant Standards Index (PSI) information</h1>
+      <h5 class="text-center" id="last_updated" > </h5>
+        <div class="container">
+        <table class="table" id="table_data">
+            <thead class>
+            <tr>
+                <th class="col">Metric</th>
+                <th class="col">National</th>
+                <th class="col">Central</th>
+                <th class="col">West</th>
+                <th class="col">East</th>
+                <th class="col">North</th>
+                <th class="col">South</th>
+
+            </tr>
+            </thead>
+            <tbody>
+          
+        </table>
+        </div>
+        <script src="main.js"></script>
+</body>
+</html>
