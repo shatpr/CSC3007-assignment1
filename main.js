@@ -16,7 +16,6 @@ fetch("https://api.data.gov.sg/v1/environment/psi").then((data)=>{
             south: readings[item].south,
         })
     }
-
     $("#last_updated").text("Last updated: " + update_timestamp);
     $("#table_data").show();
     $("#table_data").DataTable({
@@ -30,7 +29,7 @@ fetch("https://api.data.gov.sg/v1/environment/psi").then((data)=>{
             { data: 'north' },
             { data: 'south' }
         ],
-        lengthMenu:  [12, 24, 36, 48, "All"]
+        lengthMenu:  [10, 20, 30, 50, "All"]
     });
 });
 
